@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/defalut.css" rel="stylesheet" />
+    <link href="css/my-custom.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-default my-navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="prototype.html">1Campus</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- <li><a href="#" data-toggle="modal" data-target="#AddGroup"><i class="fa fa-plus"></i> 建立群組</a>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#JoinGroup"><i class="fa fa-plus"></i> 加入群組</a>
+                    </li> -->
+                    <li><a href="store.html"><i class="fa fa-puzzle-piece"></i> 商店</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:13px 10px 11px;"><i class="fa fa-bell"></i> <span class="label label-danger">12</span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="my-info">
+                                    <div class="row">
+                                        <div class="col-xs-10">
+                                            ischool 邀請你加入「ischool老師俱樂部」群組
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i>
+                                            </button>
+                                            <button class="btn btn-success btn-xs"><i class="fa fa-circle-o"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <small class="text-muted" style="display:block;">系統通知｜<i class="fa fa-clock-o"></i> 2014-04-25 14:25</small>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+									加入「1Know」應用程式
+									<small class="text-muted" style="display:block;">系統通知｜<i class="fa fa-clock-o"></i> 2014-04-25 14:25</small>
+								</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="all-info.html"><i class="fa fa-plus-square"></i> 所有通知</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height:44px;">
+                            <span class="my-nav-role-icon">師</span>
+                            Welcome, 小貞
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" style="min-width: 171px;">
+                            <!-- <li><a href="#"><i class="fa fa-gear"></i> 設定帳戶</a></li> -->
+                            <div class="my-info-mail ng-binding">bubu@debug.ischool.com.tw</div>
+                            <li class="divider"></li>
+                            <li class="my-nav-header"><i class="fa fa-users"></i> 瀏覽身分</li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 老師<i class="fa fa-check pull-right my-nav-curr-role ng-scope"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 學生</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 家長</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="javascript:;"><i class="fa fa-sign-out"></i> 登出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="group-page.html">
+                    <div class="my-panel clearfix" style="background:#f06980;">
+                        <div class="my-panel-content pull-left">
+                            <div class="my-panel-name pull-left">
+                                <h1>Typography and links</h1>
+                                <p class="text-muted">35CD2B</p>
+                            </div>
+                            <div class="my-panel-app pull-left" data-toggle="modal" data-target="#myGroupApp">
+                                <h2>0</h2>
+                            </div>
+                        </div>
+                        <div class="my-panel-people pull-left">
+                            <h2>0</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="group-page.html">
+                    <div class="my-panel clearfix" style="background:#ffc853;">
+                        <div class="my-panel-content pull-left">
+                            <div class="my-panel-name pull-left">
+                                <h1>數學研究所</h1>
+                                <p class="text-muted">35CD2B</p>
+                            </div>
+                            <div class="my-panel-app pull-left" data-toggle="modal" data-target="#myGroupApp">
+                                <h2>3</h2>
+                            </div>
+                        </div>
+                        <div class="my-panel-people pull-left">
+                            <h2>5</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="group-page.html">
+                    <div class="my-panel clearfix" style="background:#00ada7;">
+                        <div class="my-panel-content pull-left">
+                            <div class="my-panel-name pull-left">
+                                <h1>閱讀博士</h1>
+                                <p class="text-muted">35CD2B</p>
+                            </div>
+                            <div class="my-panel-app pull-left" data-toggle="modal" data-target="#myGroupApp">
+                                <h2>43</h2>
+                            </div>
+                        </div>
+                        <div class="my-panel-people pull-left">
+                            <h2>246</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="group-page.html">
+                    <div class="my-panel clearfix" style="background:#68b2dd;">
+                        <div class="my-panel-content pull-left">
+                            <div class="my-panel-name pull-left">
+                                <h1>Typography and links</h1>
+                                <p class="text-muted">35CD2B</p>
+                            </div>
+                            <div class="my-panel-app pull-left" data-toggle="modal" data-target="#myGroupApp">
+                                <h2>27</h2>
+                            </div>
+                        </div>
+                        <div class="my-panel-people pull-left">
+                            <h2>65</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="group-page.html">
+                    <div class="my-panel clearfix" style="background:#a0a0a0;">
+                        <div class="my-panel-content pull-left">
+                            <div class="my-panel-name pull-left">
+                                <h1>數學研究所</h1>
+                                <p class="text-muted">35CD2B</p>
+                            </div>
+                            <div class="my-panel-app pull-left" data-toggle="modal" data-target="#myGroupApp">
+                                <h2>16</h2>
+                            </div>
+                        </div>
+                        <div class="my-panel-people pull-left">
+                            <h2>135</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="group-page.html">
+                    <div class="my-panel clearfix" style="background:#03638f;">
+                        <div class="my-panel-content pull-left">
+                            <div class="my-panel-name pull-left">
+                                <h1>閱讀博士</h1>
+                                <p class="text-muted">35CD2B</p>
+                            </div>
+                            <div class="my-panel-app pull-left" data-toggle="modal" data-target="#myGroupApp">
+                                <h2>0</h2>
+                            </div>
+                        </div>
+                        <div class="my-panel-people pull-left">
+                            <h2>13</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Group Modal -->
+    <div class="modal fade" id="AddGroup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-plus"></i> 建立群組</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="請輸入群組名稱">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">建立</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Group Modal -->
+    <div class="modal fade" id="JoinGroup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-plus"></i> 加入群組</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="請輸入群組代碼">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">加入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GroupApp Modal -->
+
+    <div class="modal fade bs-example-modal-lg" id="myGroupApp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-archive"></i> Group Name</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="my-applist">
+                        <div class="my-applist-icon">
+                            <img src="img/1know.png">
+                        </div>
+                        <div class="my-applist-name">
+                            1Know
+                        </div>
+                    </div>
+                    <div class="my-applist">
+                        <div class="my-applist-icon">
+                            <img src="img/voicetube.png">
+                        </div>
+                        <div class="my-applist-name">
+                            看影片學英文 Voicetube
+                        </div>
+                    </div>
+                    <div class="my-applist">
+                        <div class="my-applist-icon">
+                            <img src="img/sample01.png">
+                        </div>
+                        <div class="my-applist-name">
+                            神技英文定位系統
+                        </div>
+                    </div>
+                    <div class="my-applist">
+                        <div class="my-applist-icon">
+                            <img src="img/1know.png">
+                        </div>
+                        <div class="my-applist-name">
+                            1Know
+                        </div>
+                    </div>
+                    <div class="my-applist">
+                        <div class="my-applist-icon">
+                            <img src="img/voicetube.png">
+                        </div>
+                        <div class="my-applist-name">
+                            看影片學英文 Voicetube
+                        </div>
+                    </div>
+                    <div class="my-applist">
+                        <div class="my-applist-icon">
+                            <img src="img/sample01.png">
+                        </div>
+                        <div class="my-applist-name">
+                            神技英文定位系統
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

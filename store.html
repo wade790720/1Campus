@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/defalut.css" rel="stylesheet" />
+    <link href="css/my-custom.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-default my-navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="prototype.html">1Campus</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- <li><a href="#" data-toggle="modal" data-target="#AddGroup"><i class="fa fa-plus"></i> 建立群組</a>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#JoinGroup"><i class="fa fa-plus"></i> 加入群組</a>
+                    </li> -->
+                    <li><a href="store.html"><i class="fa fa-puzzle-piece"></i> 商店</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:13px 10px 11px;"><i class="fa fa-bell"></i> <span class="label label-danger">12</span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="my-info">
+                                    <div class="row">
+                                        <div class="col-xs-10">
+                                            ischool 邀請你加入「ischool老師俱樂部」群組
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i>
+                                            </button>
+                                            <button class="btn btn-success btn-xs"><i class="fa fa-circle-o"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <small class="text-muted" style="display:block;">系統通知｜<i class="fa fa-clock-o"></i> 2014-04-25 14:25</small>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+									加入「1Know」應用程式
+									<small class="text-muted" style="display:block;">系統通知｜<i class="fa fa-clock-o"></i> 2014-04-25 14:25</small>
+								</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="all-info.html"><i class="fa fa-plus-square"></i> 所有通知</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height:44px;">
+                            <span class="my-nav-role-icon">師</span>
+                            Welcome, 小貞
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" style="min-width: 171px;">
+                            <!-- <li><a href="#"><i class="fa fa-gear"></i> 設定帳戶</a></li> -->
+                            <div class="my-info-mail">bubu@debug.ischool.com.tw</div>
+                            <li class="divider"></li>
+                            <li class="my-nav-header"><i class="fa fa-users"></i> 瀏覽身分</li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 老師<i class="fa fa-check pull-right my-nav-curr-role"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 學生</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 家長</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="javascript:;"><i class="fa fa-sign-out"></i> 登出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container ui-view-container">
+        <div>
+            <p class="my-breadcrumb-trail">
+                ::: <a href="group-page.html">Typography and links</a>
+            </p>
+            <h4>
+                <div class="row">
+                    <div class="col-sm-3 pull-right my-margin-top">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="搜尋應用程式">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </h4>
+        <div class="my-gp-addapp">
+            <a href="app-info.html">
+                <div class="my-gp-addapp-icon">
+                    <img src="https://web2.ischool.com.tw/css/images/nav15.png">
+                </div>
+                <div class="my-gp-addapp-name">
+                    字音字形
+                </div>
+                <small class="text-muted">
+                    <span>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    </span>
+                    <span class="my-integrated" title="帳號整合"> / <i class="fa fa-user"></i> / </span>
+                    <span class="pull-right">已安裝</span>
+                </small>
+            </a>
+        </div>
+        <div class="my-gp-addapp">
+            <a href="app-info.html">
+                <div class="my-gp-addapp-icon">
+                    <img src="https://dl.dropboxusercontent.com/u/26748866/1know.png">
+                </div>
+                <div class="my-gp-addapp-name">
+                    1know
+                </div>
+                <small class="text-muted">
+                    <span>
+                        <i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i>
+                    </span>
+                    <span class="my-integrated" title="帳號+群組整合"> / <i class="fa fa-users"></i> / </span>
+                    <span class="pull-right">已安裝</span>
+                </small>
+            </a>
+        </div>
+        <div class="my-gp-addapp">
+            <a href="app-info.html">
+                <div class="my-gp-addapp-icon">
+                    <img src="https://web2.ischool.com.tw/css/images/nav30.png">
+                </div>
+                <div class="my-gp-addapp-name ng-binding">
+                    Gradebook
+                </div>
+                <small class="text-muted">
+                    <span>
+                        <i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star"></i>
+                    </span>
+                    <span class="my-integrated" title="帳號+群組整合"> / <i class="fa fa-users"></i> / </span>
+                    <span class="pull-right text-danger">FREE</span>
+                </small>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

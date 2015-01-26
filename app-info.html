@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/defalut.css" rel="stylesheet" />
+    <link href="css/my-custom.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-default my-navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="prototype.html">1Campus</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!-- <li><a href="#" data-toggle="modal" data-target="#AddGroup"><i class="fa fa-plus"></i> 建立群組</a>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#JoinGroup"><i class="fa fa-plus"></i> 加入群組</a>
+                    </li> -->
+                    <li><a href="store.html"><i class="fa fa-puzzle-piece"></i> 商店</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:13px 10px 11px;"><i class="fa fa-bell"></i> <span class="label label-danger">12</span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="my-info">
+                                    <div class="row">
+                                        <div class="col-xs-10">
+                                            ischool 邀請你加入「ischool老師俱樂部」群組
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i>
+                                            </button>
+                                            <button class="btn btn-success btn-xs"><i class="fa fa-circle-o"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <small class="text-muted" style="display:block;">系統通知｜<i class="fa fa-clock-o"></i> 2014-04-25 14:25</small>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+									加入「1Know」應用程式
+									<small class="text-muted" style="display:block;">系統通知｜<i class="fa fa-clock-o"></i> 2014-04-25 14:25</small>
+								</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="all-info.html"><i class="fa fa-plus-square"></i> 所有通知</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height:44px;">
+                            <span class="my-nav-role-icon">師</span>
+                            Welcome, 小貞
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" style="min-width: 171px;">
+                            <!-- <li><a href="#"><i class="fa fa-gear"></i> 設定帳戶</a></li> -->
+                            <div class="my-info-mail ng-binding">bubu@debug.ischool.com.tw</div>
+                            <li class="divider"></li>
+                            <li class="my-nav-header"><i class="fa fa-users"></i> 瀏覽身分</li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 老師<i class="fa fa-check pull-right my-nav-curr-role ng-scope"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 學生</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" style="white-space: nowrap;"> 家長</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="javascript:;"><i class="fa fa-sign-out"></i> 登出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <!-- 應用程式簡介 -->
+        <p class="my-breadcrumb-trail">
+            :::<a href="store.html">商店</a> &gt; 字音字形
+        </p>
+        <div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="img/1know.png" width="100%">
+                            <button type="button" class="btn btn-install btn-block"><i class="fa fa-plus"></i> FREE</button>
+                        </div>
+                        <div class="panel-heading">
+                            <i class="fa fa-star"></i> 總評價
+                        </div>
+                        <div class="panel-body text-muted">
+                            <i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star my-star"></i><i class="fa fa-star"></i>
+                            <small class="text-muted"> <i class="fa fa-fw fa-user"></i> 123,456,789</small>
+                        </div>
+                        <div class="panel-heading">
+                            <i class="fa fa-child"></i> 適用對象
+                            <span class="pull-right my-integrated" title="帳號整合"><i class="fa fa-user"></i></span>
+                        </div>
+                        <div class="panel-body text-muted my-app-role">
+                            <span>老師</span>
+                            <span>學生</span>
+                        </div>
+                        <div class="panel-heading"><i class="fa fa-cc"></i> 發行者</div>
+                        <div class="panel-body text-muted">
+                            <p>
+                                <a href="http://www.ischool.com.tw/" target="_blank"><i class="fa fa-home"></i> 澔學學習股份有限公司</a>
+                            </p>
+                            <p><a href="http://1know.net/#!/" target="_blank"><i class="fa fa-rocket"></i> 產品網站</a></p>
+                            <p><a href="http://1know.weebly.com/25805203162521624039.html" target="_blank"><i class="fa fa-question-circle"></i> 幫助</a></p>
+                            <p><i class="fa fa-envelope"></i> support@ischool.com.tw</p>
+                            <p><i class="fa fa-phone-square"></i> 886-3-5341569</p>
+                        </div>
+                        <div class="panel-heading"><i class="fa fa-calendar"></i> 更新時間</div>
+                        <div class="panel-body text-muted">2013-02-21</div>
+                        <div class="panel-heading"><i class="fa fa-inbox"></i> 相同發行者的其他項目</div>
+                        <div class="panel-body my-otherapp">
+                        	<img src="img/voicetube.png">
+                        	<img src="img/sample01.png">
+                        	<img src="img/1know.png">
+                        	<img src="img/sample01.png">
+                        	<img src="img/1know.png">
+                        	<a href="" class="btn btn-link btn-block">查看所有</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <h3 style="margin:0 0 5px 0;">1Know - 翻轉你的學習</h3>
+                    <a href="#" data-toggle="modal" data-target="#HaveQuestion" class="btn btn-link btn-sm" style="padding:0;"><i class="fa fa-exclamation-circle"></i> 問題回報</a>
+                    <div class="text-right">
+                        <p class="text-left" style="margin-top:10px; max-height:170px; overflow:hidden;">
+                            ＊ 隨手搜整知識
+                            <br/>我們每天從Youtube瀏覽許多有趣、有用的影片！無論你想創作個人化學習課程，還是單純訂閱，1Know 幫助你組織、建立個人化學習清單，更方便吸收影片知識，展開新的學習生活！
+                            <br/>
+                            <br/>＊ 樂在自我學習
+                            <br/>透過大家的創作與分享，讓你連結豐富精采課程！不用舟車奔波就能一睹大師風采！同時，記下你看過的每段影片，寫下的每段筆記，幫助你對照學習計畫，掌握進度。
+                            <br/>
+                            <br/>＊ 凝聚群組共學
+                            <br/>更方便的互動討論（類似edmodo）、班級經營（類似Classdojo）、同步教學（類似Nearpod）及電子白板功能，涵蓋了課前預習、課中活動、課後複習，讓老師建立自己的翻轉教室！
+                            <br/>
+                            <br/>邀請你一起創作。樂學。共學。
+                        </p>
+                        <a href="" class="btn btn-link"><i class="fa fa-angle-down"></i> 顯示全部</a>
+                    </div>
+                    <div class="clearfix my-appsample">
+                        <img src="img/sample01.jpg" class="thumbnail">
+                        <img src="img/sample02.jpg" class="thumbnail">
+                        <img src="img/sample03.jpg" class="thumbnail">
+                    </div>
+                    <h4><i class="fa fa-pencil"></i> 我的評論</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label>標題</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label>評論</label>
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </div>
+                                <span class="lead text-muted">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <small class="text-muted">點一下星星來評等</small>
+                                <a href="" class="btn btn-primary pull-right">提交評論</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 style="margin:30px 0;">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <i class="fa fa-comment"></i> 使用者評論
+                                </div>
+                                <div class="col-sm-5 text-right">
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-default active">
+                                            <input type="radio" name="options" id="option1" checked><i class="fa fa-clock-o"></i> 依時間
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input type="radio" name="options" id="option2"><i class="fa fa-thumbs-up"></i> 依實用
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="搜尋">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </h4>
+                        <div class="clearfix">
+                            <strong>1. 不錯不錯</strong>
+                            <small class="text-muted" style="display:block; margin:5px 0;">
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                2014-08-28 17:55 李雅婷
+                            </small>
+                            <p>
+                                把最新應用案例的簡報，放到『知識』：用1Know學1Know
+                            </p>
+                            <small class="text-muted pull-right">
+                                此文章對您有幫助嗎？
+                                <a href="" class="btn btn-link btn-sm"><i class="fa fa-thumbs-o-up"></i> 有</a>｜
+                                <a href="" class="btn btn-link btn-sm"><i class="fa fa-thumbs-o-down"></i> 垃圾評論</a>
+                            </small>
+                        </div>
+                        <hr>
+                        <div class="clearfix">
+                            <strong>2. 測試</strong>
+                            <small class="text-muted" style="display:block; margin:5px 0;">
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star my-star"></i>
+                                <i class="fa fa-star"></i>
+                                2014-08-26 11:11 陳佩貞
+                            </small>
+                            <p>
+                                測試
+                                <br>測試
+                            </p>
+                            <small class="text-muted pull-right">
+                                此文章對您有幫助嗎？
+                                <a href="" class="btn btn-link btn-sm"><i class="fa fa-thumbs-o-up"></i> 有</a>｜
+                                <a href="" class="btn btn-link btn-sm"><i class="fa fa-thumbs-o-down"></i> 垃圾評論</a>
+                            </small>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

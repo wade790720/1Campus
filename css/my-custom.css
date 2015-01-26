@@ -1,0 +1,199 @@
+/* all */
+.fa-star {
+    padding-right: 2px;
+}
+
+input:focus:invalid, textarea:focus:invalid {
+    border-color: #A94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.my-breadcrumb-trail {
+    color: #999;
+}
+
+/* group panel */
+
+.my-panel-name {
+    height: 65px;
+}
+
+.my-panel:hover .my-panel-content {
+    opacity: 0.9;
+}
+
+.my-panel-app:hover {
+    background: inherit;
+}
+
+.my-applist-icon img {
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.my-gp-applist-icon img {
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.my-gp-addapp-icon img {
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.my-gp-app.action {
+    background: initial;
+}
+.my-gp-app.action a, .my-gp-app.action h2:after{
+    color: #fff;
+}
+.my-gp-app.action:hover {
+    background: rgba(0,0,0,.06);
+}
+
+.my-gp-people {
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    color: #666;
+}
+.my-gp-people a, .my-gp-people h2:after{
+    color: #666;
+}
+.my-gp-people:hover {
+    background: #f1f1f1;
+}
+.my-gp-people.action {
+    background: initial;
+}
+.my-gp-people.action a, .my-gp-people.action h2:after{
+    color: #fff;
+}
+.my-gp-people.action:hover {
+    background: rgba(0,0,0,.06);
+}
+
+/* Group Page (gp) People List */
+.my-gp-peopleList td.myParents span:before {
+  content: '、';
+}
+
+.my-gp-peopleList td span:first-child:before {
+  content: '';
+}
+
+/* Navbar */
+.my-info {
+    width: 370px;
+}
+
+.my-info .col-xs-2 {
+    padding: 0;
+}
+
+.my-nav-header {
+    margin: 5px 0 5px 10px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #118a98;
+}
+
+.my-nav-curr-role {
+    color: #118a98;
+}
+
+.my-info-mail {
+    margin: 5px 5px 5px 10px;
+    color: #999;
+}
+
+/*.my-navbar .fa-user {
+    padding: 3px 5px 3px 4px;
+}*/
+
+.my-navbar .my-nav-role-icon {
+    padding: 3px 5px 5px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+/* store app info */
+.my-description {
+    margin-top: 10px;
+    overflow: hidden;
+    max-height: 170px;
+}
+
+.my-description-expand {
+    max-height: inherit;
+}
+
+.my-app-role span:first-child:before {
+  content: '';
+}
+
+.my-app-role span:before {
+  content: '、';
+}
+
+.my-is-helpful {
+    font-weight: bold;
+}
+
+.modal-body label.my-modal-label {
+    margin: 0;
+}
+
+.my-integrated {
+    color: #118A98;
+    margin-left: 5px;
+}
+
+/* No Role Init*/
+.my-rolelist {
+    display: inline-block;
+    width: 150px;
+    height: 205px;
+    padding: 15px;
+    margin: 9px;
+    text-align: center;
+    background: #eee;
+}
+
+#GroupApp .my-rolelist {
+    width: 166px;
+}
+
+.my-rolelist:hover {
+    cursor: pointer;
+    background: #e5e5e5;
+}
+
+.my-rolelist:hover .my-rolelist-icon {
+    background: rgba(255,255,255,.9);
+}
+
+.my-rolelist .my-rolelist-icon {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 13px;
+    background: #fff;
+}
+
+.my-rolelist-icon img {
+    min-width: 86px;
+    min-width: 100px;
+}
+
+.my-rolelist-name {
+    height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
