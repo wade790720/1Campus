@@ -197,3 +197,43 @@ input:focus:invalid, textarea:focus:invalid {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+/*Developer Menu Page*/
+.tps-icon {
+    border-radius: 50%;
+    border: 2px solid #6C6C6C;
+    margin-right: 5px;
+    padding: 3px 5px 5px;
+}
+.color-org {
+    color: #FF9B00;
+}
+.color-green {
+    color: #41C251;
+}
+.color-red {
+    color: #EF5C5C;
+}
+.img-logo {
+    margin-right: 10px;
+    width: 50px;
+}
+
+/*Developer Page*/
+.heading-size {
+    font-size: 18px;
+}
+.bluestar {
+    color: #4cb8ca
+}
+.i-currency-label {
+    color: #0eb4b6;
+    font-size: 16px;
+    left: 25px;
+    position: absolute;
+    top: 7px;
+}
+.img-border{
+    border: 1px solid #717171; 
+    margin-top: 10px; 
+}

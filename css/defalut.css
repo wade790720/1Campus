@@ -505,6 +505,19 @@ a .my-gp-addapp-name {
 	margin-top: 10px;
 }
 
+/* Developer Menu Page (dmp)  */
+.my-dmp-table>thead>tr>th{
+	 border: 0;
+}
+.my-dmp-table>tbody>tr>td {
+    line-height: 50px;
+}
+.my-dmp-table>tbody+tbody{
+	border:0;
+}
+.my-dmp-table tr {
+    cursor: pointer;
+}
 
 /* Responsive Set */
 
