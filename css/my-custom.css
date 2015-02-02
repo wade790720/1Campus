@@ -214,9 +214,28 @@ input:focus:invalid, textarea:focus:invalid {
 .color-red {
     color: #EF5C5C;
 }
+.color-blue{
+    color: #4187C2;
+}
 .img-logo {
     margin-right: 10px;
     width: 50px;
+}
+.cell-center{
+    text-align: center;
+}
+.row-tool{
+    bottom:20px;
+    float:right;
+    position:relative;
+    right:10px;
+}
+.list{
+    border-left: 5px solid rgb(255, 255, 255);
+}
+.list:hover{
+    border-left: 5px solid rgb(22, 143, 218);
+    background-color: #EAF6F7;
 }
 
 /*Developer Page*/
